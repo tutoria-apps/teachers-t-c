@@ -1,0 +1,43 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.tos-heading {
+    text-align: center;
+}
+
+.tos-text-justify {
+    text-align: justify;
+}
+
+.tos-paragraph {
+    /*margin-top: 30px;*/
+}
+
+.tos-list {
+    padding: 15px;
+}
+
+.tos-list-item-paragraph {
+    text-indent: 15px;
+}
+
+.tos-item-invert-indent {
+    text-indent: -15px;
+}
+
+.tos-list-item-section {
+    padding: 0 0 0 30px;
+}
+
+.tos-list-subitem {
+    padding: 0 0 0 30px;
+}
