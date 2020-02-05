@@ -35,11 +35,12 @@
     </p>
     <br>
     <p class="tos-paragraph tos-text-justify">
-      Tutoria reserves the right to modify this Agreement at any time by posting the modified Agreement at [___][please
-      insert link]. Such modifications will be effective ten (10) days after such posting, and Teacher's continued use of
-      the Platform shall constitute Teacher's agreement to such modifications. [At Tutoria's sole discretion, any Tutoria
-      obligation hereunder may be performed (in whole or in part), and any Tutoria right or remedy may be exercised (in
-      whole or in part), by a Tutoria Affiliate (defined below).]
+      Tutoria reserves the right to modify this Agreement at any time by posting the modified Agreement at
+      [<a href="http://teacher-terms-and-conditions.firebaseapp.com/">http://teacher-terms-and-conditions.firebaseapp.com/</a>].
+      Such modifications will be effective ten (10) days after such posting, and Teacher's continued use of the Platform
+      shall constitute Teacher's agreement to such modifications. [At Tutoria's sole discretion, any Tutoria obligation
+      hereunder may be performed (in whole or in part), and any Tutoria right or remedy may be exercised (in whole or
+      in part), by a Tutoria Affiliate (defined below).]
     </p>
     <br>
     <ul class="tos-list">
@@ -517,6 +518,7 @@
           function s4() {
             return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
           }
+
           return s4() + s4() + "-" + s4() + "-" + s4() + "-" + s4() + "-" + s4() + s4() + s4();
         };
 
@@ -571,8 +573,7 @@
           let message;
           try {
             message = JSON.parse(e.data)
-          }
-          catch(err) {
+          } catch(err) {
             console.error("failed to parse message from react-native " + err);
             return;
           }
